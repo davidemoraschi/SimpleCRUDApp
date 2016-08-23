@@ -1,0 +1,12 @@
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\ResolveAssemblyReference.cache
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\SimpleCRUDApp.g.resources
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\Bin\Debug\SimpleCRUDApp.dll
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\Bin\Debug\SimpleCRUDApp.pdb
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\Bin\Debug\AppManifest.xaml
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\Bin\Debug\SimpleCRUDApp.xap
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\Bin\Debug\SimpleCRUDAppTestPage.html
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\SimpleCRUDApp.dll
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\SimpleCRUDApp.pdb
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\XapCacheFile.xml
+i:\Visual Studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\App.g.i.cs
+i:\Visual Studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp\obj\Debug\MainPage.g.i.cs

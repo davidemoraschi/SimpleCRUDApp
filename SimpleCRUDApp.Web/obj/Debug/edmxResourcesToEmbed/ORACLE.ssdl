@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Alias="Self" Provider="Devart.Data.Oracle" ProviderManifestToken="ORA" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="VLMFFMP" EntityType="Model.Store.VLMFFMP" store:Type="Tables" Schema="DIGAWEB" />
+    <EntitySet Name="VLMFIAL" EntityType="Model.Store.VLMFIAL" store:Type="Tables" Schema="DIGAWEB" />
+  </EntityContainer>
+  <EntityType Name="VLMFFMP">
+    <Key>
+      <PropertyRef Name="FMPNHIS" />
+    </Key>
+    <Property Name="FMPCOPO" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="FMPDIRE" Type="VARCHAR2" MaxLength="40" />
+    <Property Name="FMPEXIT" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="FMPLOCA" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPLOHC" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPNACI" Type="DATE" />
+    <Property Name="FMPNCSS" Type="VARCHAR2" MaxLength="13" />
+    <Property Name="FMPNDNI" Type="VARCHAR2" MaxLength="9" />
+    <Property Name="FMPNHIS" Type="int" Nullable="false" />
+    <Property Name="FMPNHAG" Type="int" />
+    <Property Name="FMPNHDH" Type="int" />
+    <Property Name="FMPNHMF" Type="int" />
+    <Property Name="FMPNOMB" Type="VARCHAR2" MaxLength="25" />
+    <Property Name="FMPORIG" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPPROV" Type="VARCHAR2" MaxLength="2" />
+    <Property Name="FMPSEXO" Type="VARCHAR2" Nullable="false" MaxLength="1" />
+    <Property Name="FMPTASS" Type="VARCHAR2" MaxLength="13" />
+    <Property Name="FMPTFN2" Type="VARCHAR2" MaxLength="9" />
+    <Property Name="FMPTFNO" Type="VARCHAR2" MaxLength="9" />
+    <Property Name="FMPUBIC" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPAPE1" Type="VARCHAR2" Nullable="false" MaxLength="25" />
+    <Property Name="FMPAPE2" Type="VARCHAR2" MaxLength="25" />
+    <Property Name="FMPACLA" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="FMPALER" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPBORN" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPPARE" Type="VARCHAR2" MaxLength="4" />
+    <Property Name="FMPRESI" Type="VARCHAR2" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="VLMFIAL">
+    <Key>
+      <PropertyRef Name="IALNHIS" />
+      <PropertyRef Name="IALNREF" />
+      <PropertyRef Name="IALP__7" />
+    </Key>
+    <Property Name="IALCALT" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALCP11" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP12" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP13" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP21" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP22" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP23" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP31" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP32" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALCP33" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALDALT" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALDATE" Type="DATE" />
+    <Property Name="IALDRAL" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALD__1" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__2" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__3" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__4" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__5" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__6" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__7" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALD__E" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALFADM" Type="DATE" />
+    <Property Name="IALFALT" Type="DATE" />
+    <Property Name="IALFPQ1" Type="DATE" />
+    <Property Name="IALFPQ2" Type="DATE" />
+    <Property Name="IALFPQ3" Type="DATE" />
+    <Property Name="IALI__1" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALI__2" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALI__3" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALNHIS" Type="int" Nullable="false" />
+    <Property Name="IALNOMB" Type="VARCHAR2" MaxLength="37" />
+    <Property Name="IALNREF" Type="VARCHAR2" Nullable="false" MaxLength="11" />
+    <Property Name="IALOMS1" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS2" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS3" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS4" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS5" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS6" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMS7" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALOMSE" Type="VARCHAR2" MaxLength="6" />
+    <Property Name="IALPDC1" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC2" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC3" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC4" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC5" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC6" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPDC7" Type="VARCHAR2" MaxLength="5" />
+    <Property Name="IALPRAL" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALPROC" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__1" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__2" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__3" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__4" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__5" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__6" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALP__7" Type="VARCHAR2" Nullable="false" MaxLength="1" />
+    <Property Name="IALSALT" Type="VARCHAR2" MaxLength="3" />
+    <Property Name="IALTALT" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALTPQ1" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALTPQ2" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALTPQ3" Type="VARCHAR2" MaxLength="1" />
+    <Property Name="IALINFO" Type="CLOB" />
+    <Property Name="IALDIA1" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA2" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA3" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA4" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA5" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA6" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIA7" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALDIAE" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT1" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT2" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT3" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT4" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT5" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT6" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPDT7" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPRQ1" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPRQ2" Type="VARCHAR2" MaxLength="70" />
+    <Property Name="IALPRQ3" Type="VARCHAR2" MaxLength="70" />
+  </EntityType>
+</Schema>

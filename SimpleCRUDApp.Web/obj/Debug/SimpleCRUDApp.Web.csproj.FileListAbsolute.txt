@@ -1,0 +1,5 @@
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp.Web\obj\Debug\ResolveAssemblyReference.cache
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp.Web\bin\SimpleCRUDApp.Web.dll
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp.Web\bin\SimpleCRUDApp.Web.pdb
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp.Web\obj\Debug\SimpleCRUDApp.Web.dll
+i:\visual studio 2010\Projects\SimpleCRUDApp\SimpleCRUDApp.Web\obj\Debug\SimpleCRUDApp.Web.pdb

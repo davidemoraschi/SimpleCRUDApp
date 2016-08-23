@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SimpleCRUDApp.Web" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SimpleCRUDApp.Web" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:3612/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="ArrayOfPersons">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Persons" nillable="true" type="tns:Persons" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersons" nillable="true" type="tns:ArrayOfPersons" />
+  <xs:complexType name="Persons">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InterestingFact" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastUpdated" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="PersonID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Persons" nillable="true" type="tns:Persons" />
+</xs:schema>

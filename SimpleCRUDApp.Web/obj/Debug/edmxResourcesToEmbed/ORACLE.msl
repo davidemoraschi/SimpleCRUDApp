@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="DIGAWEBEntities">
+    <EntitySetMapping Name="VLMFFMP">
+      <EntityTypeMapping TypeName="Model.VLMFFMP">
+        <MappingFragment StoreEntitySet="VLMFFMP">
+          <ScalarProperty Name="FMPCOPO" ColumnName="FMPCOPO" />
+          <ScalarProperty Name="FMPDIRE" ColumnName="FMPDIRE" />
+          <ScalarProperty Name="FMPEXIT" ColumnName="FMPEXIT" />
+          <ScalarProperty Name="FMPLOCA" ColumnName="FMPLOCA" />
+          <ScalarProperty Name="FMPLOHC" ColumnName="FMPLOHC" />
+          <ScalarProperty Name="FMPNACI" ColumnName="FMPNACI" />
+          <ScalarProperty Name="FMPNCSS" ColumnName="FMPNCSS" />
+          <ScalarProperty Name="FMPNDNI" ColumnName="FMPNDNI" />
+          <ScalarProperty Name="FMPNHIS" ColumnName="FMPNHIS" />
+          <ScalarProperty Name="FMPNHAG" ColumnName="FMPNHAG" />
+          <ScalarProperty Name="FMPNHDH" ColumnName="FMPNHDH" />
+          <ScalarProperty Name="FMPNHMF" ColumnName="FMPNHMF" />
+          <ScalarProperty Name="FMPNOMB" ColumnName="FMPNOMB" />
+          <ScalarProperty Name="FMPORIG" ColumnName="FMPORIG" />
+          <ScalarProperty Name="FMPPROV" ColumnName="FMPPROV" />
+          <ScalarProperty Name="FMPSEXO" ColumnName="FMPSEXO" />
+          <ScalarProperty Name="FMPTASS" ColumnName="FMPTASS" />
+          <ScalarProperty Name="FMPTFN2" ColumnName="FMPTFN2" />
+          <ScalarProperty Name="FMPTFNO" ColumnName="FMPTFNO" />
+          <ScalarProperty Name="FMPUBIC" ColumnName="FMPUBIC" />
+          <ScalarProperty Name="FMPAPE1" ColumnName="FMPAPE1" />
+          <ScalarProperty Name="FMPAPE2" ColumnName="FMPAPE2" />
+          <ScalarProperty Name="FMPACLA" ColumnName="FMPACLA" />
+          <ScalarProperty Name="FMPALER" ColumnName="FMPALER" />
+          <ScalarProperty Name="FMPBORN" ColumnName="FMPBORN" />
+          <ScalarProperty Name="FMPPARE" ColumnName="FMPPARE" />
+          <ScalarProperty Name="FMPRESI" ColumnName="FMPRESI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VLMFIAL">
+      <EntityTypeMapping TypeName="Model.VLMFIAL">
+        <MappingFragment StoreEntitySet="VLMFIAL">
+          <ScalarProperty Name="IALCALT" ColumnName="IALCALT" />
+          <ScalarProperty Name="IALCP11" ColumnName="IALCP11" />
+          <ScalarProperty Name="IALCP12" ColumnName="IALCP12" />
+          <ScalarProperty Name="IALCP13" ColumnName="IALCP13" />
+          <ScalarProperty Name="IALCP21" ColumnName="IALCP21" />
+          <ScalarProperty Name="IALCP22" ColumnName="IALCP22" />
+          <ScalarProperty Name="IALCP23" ColumnName="IALCP23" />
+          <ScalarProperty Name="IALCP31" ColumnName="IALCP31" />
+          <ScalarProperty Name="IALCP32" ColumnName="IALCP32" />
+          <ScalarProperty Name="IALCP33" ColumnName="IALCP33" />
+          <ScalarProperty Name="IALDALT" ColumnName="IALDALT" />
+          <ScalarProperty Name="IALDATE" ColumnName="IALDATE" />
+          <ScalarProperty Name="IALDRAL" ColumnName="IALDRAL" />
+          <ScalarProperty Name="IALD__1" ColumnName="IALD__1" />
+          <ScalarProperty Name="IALD__2" ColumnName="IALD__2" />
+          <ScalarProperty Name="IALD__3" ColumnName="IALD__3" />
+          <ScalarProperty Name="IALD__4" ColumnName="IALD__4" />
+          <ScalarProperty Name="IALD__5" ColumnName="IALD__5" />
+          <ScalarProperty Name="IALD__6" ColumnName="IALD__6" />
+          <ScalarProperty Name="IALD__7" ColumnName="IALD__7" />
+          <ScalarProperty Name="IALD__E" ColumnName="IALD__E" />
+          <ScalarProperty Name="IALFADM" ColumnName="IALFADM" />
+          <ScalarProperty Name="IALFALT" ColumnName="IALFALT" />
+          <ScalarProperty Name="IALFPQ1" ColumnName="IALFPQ1" />
+          <ScalarProperty Name="IALFPQ2" ColumnName="IALFPQ2" />
+          <ScalarProperty Name="IALFPQ3" ColumnName="IALFPQ3" />
+          <ScalarProperty Name="IALI__1" ColumnName="IALI__1" />
+          <ScalarProperty Name="IALI__2" ColumnName="IALI__2" />
+          <ScalarProperty Name="IALI__3" ColumnName="IALI__3" />
+          <ScalarProperty Name="IALNHIS" ColumnName="IALNHIS" />
+          <ScalarProperty Name="IALNOMB" ColumnName="IALNOMB" />
+          <ScalarProperty Name="IALNREF" ColumnName="IALNREF" />
+          <ScalarProperty Name="IALOMS1" ColumnName="IALOMS1" />
+          <ScalarProperty Name="IALOMS2" ColumnName="IALOMS2" />
+          <ScalarProperty Name="IALOMS3" ColumnName="IALOMS3" />
+          <ScalarProperty Name="IALOMS4" ColumnName="IALOMS4" />
+          <ScalarProperty Name="IALOMS5" ColumnName="IALOMS5" />
+          <ScalarProperty Name="IALOMS6" ColumnName="IALOMS6" />
+          <ScalarProperty Name="IALOMS7" ColumnName="IALOMS7" />
+          <ScalarProperty Name="IALOMSE" ColumnName="IALOMSE" />
+          <ScalarProperty Name="IALPDC1" ColumnName="IALPDC1" />
+          <ScalarProperty Name="IALPDC2" ColumnName="IALPDC2" />
+          <ScalarProperty Name="IALPDC3" ColumnName="IALPDC3" />
+          <ScalarProperty Name="IALPDC4" ColumnName="IALPDC4" />
+          <ScalarProperty Name="IALPDC5" ColumnName="IALPDC5" />
+          <ScalarProperty Name="IALPDC6" ColumnName="IALPDC6" />
+          <ScalarProperty Name="IALPDC7" ColumnName="IALPDC7" />
+          <ScalarProperty Name="IALPRAL" ColumnName="IALPRAL" />
+          <ScalarProperty Name="IALPROC" ColumnName="IALPROC" />
+          <ScalarProperty Name="IALP__1" ColumnName="IALP__1" />
+          <ScalarProperty Name="IALP__2" ColumnName="IALP__2" />
+          <ScalarProperty Name="IALP__3" ColumnName="IALP__3" />
+          <ScalarProperty Name="IALP__4" ColumnName="IALP__4" />
+          <ScalarProperty Name="IALP__5" ColumnName="IALP__5" />
+          <ScalarProperty Name="IALP__6" ColumnName="IALP__6" />
+          <ScalarProperty Name="IALP__7" ColumnName="IALP__7" />
+          <ScalarProperty Name="IALSALT" ColumnName="IALSALT" />
+          <ScalarProperty Name="IALTALT" ColumnName="IALTALT" />
+          <ScalarProperty Name="IALTPQ1" ColumnName="IALTPQ1" />
+          <ScalarProperty Name="IALTPQ2" ColumnName="IALTPQ2" />
+          <ScalarProperty Name="IALTPQ3" ColumnName="IALTPQ3" />
+          <ScalarProperty Name="IALINFO" ColumnName="IALINFO" />
+          <ScalarProperty Name="IALDIA1" ColumnName="IALDIA1" />
+          <ScalarProperty Name="IALDIA2" ColumnName="IALDIA2" />
+          <ScalarProperty Name="IALDIA3" ColumnName="IALDIA3" />
+          <ScalarProperty Name="IALDIA4" ColumnName="IALDIA4" />
+          <ScalarProperty Name="IALDIA5" ColumnName="IALDIA5" />
+          <ScalarProperty Name="IALDIA6" ColumnName="IALDIA6" />
+          <ScalarProperty Name="IALDIA7" ColumnName="IALDIA7" />
+          <ScalarProperty Name="IALDIAE" ColumnName="IALDIAE" />
+          <ScalarProperty Name="IALPDT1" ColumnName="IALPDT1" />
+          <ScalarProperty Name="IALPDT2" ColumnName="IALPDT2" />
+          <ScalarProperty Name="IALPDT3" ColumnName="IALPDT3" />
+          <ScalarProperty Name="IALPDT4" ColumnName="IALPDT4" />
+          <ScalarProperty Name="IALPDT5" ColumnName="IALPDT5" />
+          <ScalarProperty Name="IALPDT6" ColumnName="IALPDT6" />
+          <ScalarProperty Name="IALPDT7" ColumnName="IALPDT7" />
+          <ScalarProperty Name="IALPRQ1" ColumnName="IALPRQ1" />
+          <ScalarProperty Name="IALPRQ2" ColumnName="IALPRQ2" />
+          <ScalarProperty Name="IALPRQ3" ColumnName="IALPRQ3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
